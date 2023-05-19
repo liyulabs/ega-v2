@@ -1,10 +1,12 @@
 <template>
-  <TournamentBanner />
-  <!-- <TournamentsBanner /> -->
-  <Tournaments />
-  <tournamentTable />
-  <FAQ />
-  <ContactUs />
+  <div>
+    <TournamentBanner />
+    <!-- <TournamentsBanner /> -->
+    <Tournaments />
+    <tournamentTable />
+    <FAQ />
+    <ContactUs />
+  </div>
 </template>
 
 <script>

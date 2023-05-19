@@ -1,20 +1,22 @@
 <template>
-  <section class="tournament-section">
-    <div class="tournament-card">
-      <v-card class="card-content">
-        <h2>Tournament-information</h2>
+  <div>
+    <section class="tournament-section">
+      <div class="tournament-card">
+        <v-card class="card-content">
+          <h2>Tournament-information</h2>
 
-        <v-sheet class="sheet">
-          <h3>{{ tournament.title }}</h3>
-          <h5>Date: {{ tournament.startdate }} - {{ tournament.enddate }}</h5>
-        </v-sheet>
+          <v-sheet class="sheet">
+            <h3>{{ tournament.title }}</h3>
+            <h5>Date: {{ tournament.startdate }} - {{ tournament.enddate }}</h5>
+          </v-sheet>
 
-        <p>
-          {{ tournament.details }}
-        </p>
-      </v-card>
-    </div>
-  </section>
+          <p>
+            {{ tournament.details }}
+          </p>
+        </v-card>
+      </div>
+    </section>
+  </div>
 </template>
 
 <script setup>

@@ -1,22 +1,24 @@
 <template>
-  <section class="article-section">
-    <div class="article-card">
-      <v-card class="card-content" elevation="5">
-        <h2>News</h2>
+  <div>
+    <section class="article-section">
+      <div class="article-card">
+        <v-card class="card-content" elevation="5">
+          <h2>News</h2>
 
-        <v-sheet class="sheet">
-          <h3>{{ article.headline }}</h3>
-          <h5>Date: {{ article.date }}</h5>
-        </v-sheet>
+          <v-sheet class="sheet">
+            <h3>{{ article.headline }}</h3>
+            <h5>Date: {{ article.date }}</h5>
+          </v-sheet>
 
-        <div class="details">
-          <p class="text-h7">
-            {{ article.details }}
-          </p>
-        </div>
-      </v-card>
-    </div>
-  </section>
+          <div class="details">
+            <p class="text-h7">
+              {{ article.details }}
+            </p>
+          </div>
+        </v-card>
+      </div>
+    </section>
+  </div>
 </template>
 
 <script setup>

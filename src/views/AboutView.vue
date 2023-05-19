@@ -1,19 +1,21 @@
 <template>
-  <section class="about-section">
-    <div class="about-card">
-      <v-card class="card-content">
-        <h2>Ethiopian Golf Association</h2>
+  <div>
+    <section class="about-section">
+      <div class="about-card">
+        <v-card class="card-content">
+          <h2>Ethiopian Golf Association</h2>
 
-        <h4>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo porro
-          nostrum quibusdam ut voluptatibus debitis in ipsum deserunt adipisci?
-          Dolore numquam velit provident reiciendis, consequuntur consequatur
-          sit accusantium suscipit delectus?
-        </h4>
-      </v-card>
-    </div>
-  </section>
-  <ContactUs />
+          <h4>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo porro
+            nostrum quibusdam ut voluptatibus debitis in ipsum deserunt
+            adipisci? Dolore numquam velit provident reiciendis, consequuntur
+            consequatur sit accusantium suscipit delectus?
+          </h4>
+        </v-card>
+      </div>
+    </section>
+    <ContactUs />
+  </div>
 </template>
 <script>
 import ContactUs from "@/components/ContactUs.vue";

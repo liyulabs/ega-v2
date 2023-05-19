@@ -1,4 +1,10 @@
 <template>
+  <div>
+    <NewsBanner />
+    <News />
+
+    <Donate />
+  </div>
   <NewsBanner />
   <News />
 

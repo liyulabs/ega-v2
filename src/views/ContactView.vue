@@ -1,23 +1,25 @@
 <template>
-  <section class="contact-section">
-    <div class="contact-card">
-      <h2>Contact</h2>
-      <form id="contact" name="contact" accept-charset="utf-8">
-        <label
-          ><span>Name</span><input name="name" type="text" placeholder="Name"
-        /></label>
-        <label
-          ><span>Email</span
-          ><input name="email" type="email" placeholder="Email"
-        /></label>
-        <label
-          ><span>Message</span
-          ><textarea name="message" placeholder="Message"></textarea>
-        </label>
-        <input name="submit" type="submit" value="Send" />
-      </form>
-    </div>
-  </section>
+  <div>
+    <section class="contact-section">
+      <div class="contact-card">
+        <h2>Contact</h2>
+        <form id="contact" name="contact" accept-charset="utf-8">
+          <label
+            ><span>Name</span><input name="name" type="text" placeholder="Name"
+          /></label>
+          <label
+            ><span>Email</span
+            ><input name="email" type="email" placeholder="Email"
+          /></label>
+          <label
+            ><span>Message</span
+            ><textarea name="message" placeholder="Message"></textarea>
+          </label>
+          <input name="submit" type="submit" value="Send" />
+        </form>
+      </div>
+    </section>
+  </div>
 </template>
 
 <script setup>
