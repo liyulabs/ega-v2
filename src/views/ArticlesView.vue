@@ -5,10 +5,6 @@
 
     <Donate />
   </div>
-  <NewsBanner />
-  <News />
-
-  <Donate />
 </template>
 
 <script>
